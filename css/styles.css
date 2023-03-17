@@ -14,21 +14,38 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #384AD3;
 }
 
+h1 {font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #FFCE48
+}
+h2
+{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+color: #FFCE48
+}
+h4
+{font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+color:#384AD3
+}
+h5
+{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+color:#FFCE48 
+}
+li 
+{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
 .resume-main {
 	background-color: #fffefc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #AEB6ED;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "•";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,7 +53,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #384AD3;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +65,8 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.color {
+}
+.white {
 }
